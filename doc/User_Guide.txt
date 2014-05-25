@@ -1,0 +1,21 @@
+1.Prerequisites
+  Matlab(at least version:R2012a) for Windows XP/7 32bit/64bit system
+
+2.Data source
+  1) There are seven large-scale remote sensing images(*.tif) in our documents (path:...\image). You can also put your images in the document.
+  2) Every data sample drew from the images is saved in document 'data'(path:...\data).
+
+3.The illustration of some code files
+   1) example.m and example2.m are examples to use I-KSVD algorithm. The former is the 'sparsity' mode and the the latter one is 'error' mode.
+   2) Dicttrain.m is the main program to process the images by using I-KSVD algorithm. And reconstruction.m is the main program to reconstruct the image.
+   3) The parameters which are used in I-KSVD has been illustrated in codes.
+ 
+4. Running of codes
+   You can run example.m and example2.m directly (path:\...\bin\). More details are in codes.
+
+5. Notice: 
+           1) Your memory is at least 2Gb!
+           2) You'd better not change any names of our documents! 
+           3) You must use all 7 images we had given (path:\...\images)            and the parameters in examples when you want to compare with            the ODL and RLS algorithm. 
+   
+   
